@@ -43,7 +43,7 @@ label {
     /* Position label at the top */
     left: 10px;
     /* Adjust the left position as needed */
-    background-color: white;
+    background-color: #F7F8F9;
     padding: 0 5px;
     pointer-events: none;
     font: normal normal normal 13px/17px Rubik;

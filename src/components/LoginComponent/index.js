@@ -7,34 +7,35 @@ function Index() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [entryFilled, setEntryFilled] = useState(false)
+    const [isPassVisible, setIsPassVisible] = useState(false)
 
-    function handleSubmit(e){
+    function handleSubmit(e) {
         e.preventDefault()
-        if(!userData){
+        if (!userData) {
             return toast.error('Please create your account first')
         }
         const userEmail = userData.email
         const userPassword = userData.password
-        
-        if(userEmail===email && userPassword===password){
+
+        if (userEmail === email && userPassword === password) {
             toast.success(`${userData.name} you Logged in`)
-            setTimeout(() =>{
+            setTimeout(() => {
                 window.location.href = '/dashboard'
-            },1500)
+            }, 1500)
         }
-        else{
+        else {
             toast.error('Invalid email or password')
         }
     }
 
-    useEffect(()=>{
-        if(email.length > 0&& password.length > 0){
+    useEffect(() => {
+        if (email.length > 0 && password.length > 0) {
             setEntryFilled(true)
         }
-        else{
+        else {
             setEntryFilled(false)
         }
-    }, [email,password])
+    }, [email, password])
 
     return (
         <div className='login-container'>
@@ -42,7 +43,7 @@ function Index() {
                 <h1>Signin to your<br />PopX account</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
             </div>
-            <form onSubmit={(e)=>{handleSubmit(e)}} className='login-form'>
+            <form onSubmit={(e) => { handleSubmit(e) }} className='login-form'>
                 <div className="cutout-label-top">
                     <label htmlFor="emailInput">Email Address</label>
                     <input
@@ -58,12 +59,19 @@ function Index() {
                     <label htmlFor="passwordInput">Password</label>
                     <input
                         value={password}
-                        type="password"
+                        type={isPassVisible ? 'text' : 'password'}
                         required
                         id="passwordInput"
                         placeholder='Enter password'
                         onChange={(e) => setPassword(e.target.value)}
                     />
+                    <div className='eye-icon'>
+                        {
+                            isPassVisible
+                                ? <span class="material-symbols-outlined eye" onClick={() => setIsPassVisible(!isPassVisible)}>visibility</span>
+                                : <span class="material-symbols-outlined eye" onClick={() => setIsPassVisible(!isPassVisible)}>visibility_off</span>
+                        }
+                    </div>
                 </div>
                 <button type='submit' className={entryFilled ? 'login-btn-valid login-btn' : 'login-btn'}>Login</button>
             </form>
