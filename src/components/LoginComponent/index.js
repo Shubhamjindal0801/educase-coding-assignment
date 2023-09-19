@@ -45,7 +45,7 @@ function Index() {
             </div>
             <form onSubmit={(e) => { handleSubmit(e) }} className='login-form'>
                 <div className="cutout-label-top">
-                    <label htmlFor="emailInput">Email Address</label>
+                    <label htmlFor="emailInput">Email Address<span style={{ color: '#DD4A3D' }}>*</span></label>
                     <input
                         type="email"
                         value={email}
@@ -56,7 +56,7 @@ function Index() {
                     />
                 </div>
                 <div className="cutout-label-top">
-                    <label htmlFor="passwordInput">Password</label>
+                    <label htmlFor="passwordInput">Password<span style={{ color: '#DD4A3D' }}>*</span></label>
                     <input
                         value={password}
                         type={isPassVisible ? 'text' : 'password'}
