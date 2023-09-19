@@ -73,10 +73,7 @@ Redirect to web-browser
 - Toastify for better user experience
 
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio-frontend-pi.vercel.app/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-jindal-0801/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Shubham_Jindal0/)
+
 
 
 ![Logo](https://img.freepik.com/free-vector/pop-comic-bright-template-with-speech-bubbles-colorful-frames_1142-9181.jpg)
@@ -92,5 +89,11 @@ Redirect to web-browser
 - Login Page
 ![Image](./src/asssets/Screenshot%203.png)
 
-- Welcome Page
+- Dashboard Section
 ![Image](./src/asssets/Screenshot%204.png)
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio-frontend-pi.vercel.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-jindal-0801/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Shubham_Jindal0/)
