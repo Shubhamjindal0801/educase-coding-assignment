@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Educase Coding Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application project created using the React framework, specifically utilizing React Router DOM for easy page navigation. The project includes four different components: Welcome Page, Signup Page, Login Page, and Dashboard. Additionally, Toastify has been implemented to enhance the user experience with notification messages.
 
-## Available Scripts
+## Project Overview
+    Framework: React
 
-In the project directory, you can run:
+    Routing: React Router DOM
 
-### `npm start`
+    Components: Welcome Page
+                Signup Page
+                Login Page
+                Dashboard
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    User Experience Enhancement: Toastify for notifications
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project locally, follow these steps:
 
-### `npm run build`
+Clone the repository to your local machine:
+```bash
+  git clone https://github.com/Shubhamjindal0801/educase-coding-assignment
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  cd educase-coding-assignment
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install dependencies
 
-### `npm run eject`
+```bash
+  npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start the server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Redirect to web-browser
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Open your web browser and access the application at http://localhost:3000
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```Welcome Page: The initial page that provides a welcome message and allow user to navigate easily between Create account or Login.```
 
-### Code Splitting
+```Signup Page: Allows users to sign up for an account.```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```Login Page: Allows registered users to log in.```
 
-### Analyzing the Bundle Size
+```Dashboard: The main dashboard for authenticated users. Toastify: Provides notification messages for a better user experience.```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+```bash
+  The project has been deployed and can be accessed online at Educase Coding Assignment.
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Eye icon to hide or view password while typing
+- Completely Responsive
+- Toastify for better user experience
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio-frontend-pi.vercel.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-jindal-0801/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Shubham_Jindal0/)
+
+
+![Logo](https://img.freepik.com/free-vector/pop-comic-bright-template-with-speech-bubbles-colorful-frames_1142-9181.jpg)
+
+### Screenshots
+
+- Welcome Page
+![Image](./src/asssets/Screenshot%201.png)
+
+- SignUp Page
+![Image](./src/asssets/Screenshot%202.png)
+
+- Login Page
+![Image](./src/asssets/Screenshot%203.png)
+
+- Welcome Page
+![Image](./src/asssets/Screenshot%204.png)
