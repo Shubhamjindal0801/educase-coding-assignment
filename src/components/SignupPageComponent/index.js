@@ -113,7 +113,7 @@ function Index() {
                     />
                 </div>
                 <p className='check-statement'>Are you an Agency?<span style={{ color: '#DD4A3D' }}>*</span></p>
-                <div className='check-input'>
+                <div className='check-input' required>
                     <input
                         checked={isYesChecked}
                         onChange={() => {
