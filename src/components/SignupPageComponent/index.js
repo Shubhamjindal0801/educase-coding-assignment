@@ -121,6 +121,7 @@ function Index() {
                             setIsNoChecked(false)
                             setagency('yes')
                         }}
+                        required
                         value="yes"
                         type="checkbox"
                     />
@@ -132,6 +133,7 @@ function Index() {
                             setIsYesChecked(false)
                             setagency('no')
                         }}
+                        required
                         value="no"
                         type="checkbox"
                     />
