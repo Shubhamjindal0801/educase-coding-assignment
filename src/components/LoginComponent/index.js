@@ -64,6 +64,7 @@ function Index() {
                         id="passwordInput"
                         placeholder='Enter password'
                         onChange={(e) => setPassword(e.target.value)}
+                        style={{paddingRight:'40px'}}
                     />
                     <div className='eye-icon'>
                         {
